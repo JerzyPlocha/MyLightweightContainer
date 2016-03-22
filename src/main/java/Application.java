@@ -7,7 +7,5 @@ public class Application {
 
         DIfactory context = new DIfactory();
         MessageService msg = context.getBean(MessageService.class);
-        msg.getMessage();
-        System.out.println(msg.getMessage());
     }
 }
